@@ -1,0 +1,6 @@
+before_build:
+  - nuget restore
+
+build:
+  publish_wap: true
+  publish_azure: true
